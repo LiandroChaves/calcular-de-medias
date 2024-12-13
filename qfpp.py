@@ -3,7 +3,7 @@ from tkinter import simpledialog, messagebox
 
 def calcular_pontos_para_passar():
     root = tk.Tk()
-    root.withdraw()  # Ocultar a janela principal
+    root.withdraw() 
     
     try:
         mtpp = float(simpledialog.askstring("Média", "Qual é a média necessária para passar?"))
